@@ -8,7 +8,7 @@ import java.util.Vector;
 public class MyList {
     List arrayList = new ArrayList();//the simplest class among List implementations
     List vector = new Vector();//the same as ArrayList, but all methods are synchronized
-    List linkedList = new LinkedList();//implements Queue, works lise Queue,
+    List linkedList = new LinkedList();//implements Queue, works like Queue,
     // saves first and last objects each of which has links to other objects in this list
 
     public void listExample(List list){  //список имеет интексы

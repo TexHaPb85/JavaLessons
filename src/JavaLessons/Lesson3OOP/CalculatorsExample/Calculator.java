@@ -1,4 +1,4 @@
-package JavaLessons.Lesson3OOP;
+package JavaLessons.Lesson3OOP.CalculatorsExample;
 
 /**
  * We can`t create objects of abstract class

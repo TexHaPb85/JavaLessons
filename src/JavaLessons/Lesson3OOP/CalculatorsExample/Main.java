@@ -1,4 +1,6 @@
-package JavaLessons.Lesson3OOP;
+package JavaLessons.Lesson3OOP.CalculatorsExample;
+
+import JavaLessons.Lesson3OOP.CalculatorsExample.ClassicCalculator;
 
 /**
  * Абстра́кция  — в объектно-ориентированном программировании это придание объекту характеристик,

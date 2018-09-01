@@ -93,7 +93,7 @@ public class Lesson1 {
         Lesson1 lesson1 = new Lesson1();
 //        lesson1.cycleExample();
 //        lesson1.ifElseConditionCalculator();
-//        lesson1.switchCaseConditionCalculator();
+        lesson1.switchCaseConditionCalculator();
     }
 
 }

@@ -1,4 +1,6 @@
-package JavaLessons.Lesson3OOP;
+package JavaLessons.Lesson3OOP.CalculatorsExample;
+
+import JavaLessons.Lesson3OOP.CalculatorsExample.Calculator;
 
 import java.util.HashMap;
 import java.util.Map;
