@@ -13,6 +13,16 @@ public class Computer {
     private RAM ram;
     private VideoCard videoCard;
 
+    /**
+     * It`s class of our computer  which we assemble
+     * @param cPU
+     * @param hardDrive
+     * @param motherBoard
+     * @param powerSupply
+     * @param ram
+     * @param videoCard
+     */
+
     public Computer(CentralProcessorUnit cPU, HardDrive hardDrive, MotherBoard motherBoard, PowerSupply powerSupply, RAM ram, VideoCard videoCard) {
         this.cPU = cPU;
         this.hardDrive = hardDrive;

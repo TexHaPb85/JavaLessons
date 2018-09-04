@@ -7,6 +7,8 @@ import JavaLessons.Lesson3OOP.ComputerAssemblerExample.Gigabyte.GigabytePowerSup
 import JavaLessons.Lesson3OOP.ComputerAssemblerExample.NVidida.GeForceVideoCard;
 import JavaLessons.Lesson3OOP.ComputerAssemblerExample.NVidida.NvidiaRam;
 
+
+
 public class Assembler {
     public static void main(String[] args) {
         Computer computer = new Computer(new AMDCPU(), new GigabyteHardDrive(), new GigabyteMotherBoard(),
