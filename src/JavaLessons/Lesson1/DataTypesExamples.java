@@ -21,11 +21,23 @@ public class DataTypesExamples {
     //long l = 9223372036854775807;
 
     float usd = 31.24f;
-
     double pi = 3.14159;
 
     char symb1=1067;
     char symb2 ='Ы';
+    char symd3 ='&';
 
     boolean bool = true;
+
+    public static void main(String[] args) {
+        int exampleValue =12;
+        double doubleExampleValue = 12;
+        char charExampleValue = '#';
+        boolean boolExampleValue = false;
+        System.out.println(exampleValue);
+        System.out.println(doubleExampleValue);
+        System.out.println(charExampleValue);
+        System.out.println(boolExampleValue);
+
+    }
 }

@@ -3,22 +3,7 @@ package JavaLessons.Lesson1;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- * @author Misha Yevtusenko
- * @theme conditions and cycles
- */
-public class Lesson1 {
-
-    public void cycleExample(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите длину цыкла:");
-        int a = scanner.nextInt();
-        for(int i=0;i<a;i++){
-            System.out.println("Эта запись выводиться "+(i+1)+"-ый раз");
-        }
-    }
-
-
+public class Calculator {
     public void ifElseConditionCalculator (){
         boolean rightA = false;
         boolean rightB = false;
@@ -26,18 +11,11 @@ public class Lesson1 {
         char ifContinue;
         do {
             Scanner scanner = new Scanner(System.in);//Создаем переменную для ввода значений с консоли
-            int a=0;
-            do{
-                try {
-                    System.out.println("Введите  a");//просим пользователя ввести первое значение
-                    a = scanner.nextInt();//считываем первое значение введенное в консоль
-                    rightA=true;
-                }catch (InputMismatchException inpEx){
-                    System.out.println("Ошибка ввода переменной, попробуйте еще раз");
-                    a=0;
 
-                }
-            }while (rightA!=true);
+
+            System.out.println("Введите  a");//просим пользователя ввести первое значение
+            int a= scanner.nextInt();//считываем первое значение введенное в консоль
+            rightA=true;
 
             System.out.println("Введите операцию '+' '-' '*' '/' ");//просим пользователя ввести операцию
             char op = scanner.next().charAt(0);//считываем операцию с консоли
@@ -99,15 +77,4 @@ public class Lesson1 {
             ifContinue = scanner.next().charAt(0);
         }while (ifContinue!='n');
     }
-
-
-    public static void main(String[] args) {
-        Lesson1 lesson1 = new Lesson1();
-//        lesson1.cycleExample();
-//        lesson1.ifElseConditionCalculator();
-//        lesson1.switchCaseConditionCalculator();
-        RightValuesCalculator rightValuesCalculator = new RightValuesCalculator();
-        rightValuesCalculator.ifElseConditionCalculator();
-    }
-
 }

@@ -68,9 +68,13 @@ public class Lesson2 {
 
     public static void main(String[] args) {
         Lesson2 lesson2 = new Lesson2();
-        lesson2.twoDimensionalArrayExample();
-//        //lesson2.oneDimensionalArrayExample();
 //        lesson2.twoDimensionalArrayExample();
+//        lesson2.oneDimensionalArrayExample();
+        int []aar1 = new int[]{12, 11, 54, 565, 76, 87, 445, 7, 898, 345, 76542, 565};
+        ArraySorter arraySorter = new ArraySorter();
+        arraySorter.bubbleSort(aar1);
+        System.out.println(lesson2.showOneDimensionalArray(aar1));
+
 
     }
 }
